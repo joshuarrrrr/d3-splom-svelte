@@ -4,7 +4,6 @@
 
   let data;
   let columns;
-  let width = 500;
 
   d3.csv("/penguins.csv", d3.autoType).then(penguins => {
     data = penguins;
